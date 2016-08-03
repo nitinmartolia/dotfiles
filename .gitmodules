@@ -1,0 +1,3 @@
+[submodule "vim/.vim/bundle/vimwiki"]
+	path = vim/.vim/bundle/vimwiki
+	url = git://github.com/vim-scripts/vimwiki.git
