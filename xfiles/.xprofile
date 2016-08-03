@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#
+# ~/.xprofile 
+#
+# Executed by gdm at login
+#
+
+xrdb -merge ~/.Xresources  # update x resources db   
+
+#xset +dpms
+#xset dpms 0 0 300      # switch off display after 5 min of inactivity
+
+xset +fp /usr/share/fonts/local 
+xset +fp $HOME/.local/share/fonts  
+xset fp rehash
+
+redshift -l 21.17:72.83 -t 5800:3900 &    # set screen color suitable for eye
+
+unclutter -noevents -idle 1 &  #hide cursor
+
+eval $(gpg-agent --daemon)
+
+#syndaemon -t -k -i 2 -d & # disable touchpad when typing
+ 
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+syndaemon -d -i 1 -t 
+
+

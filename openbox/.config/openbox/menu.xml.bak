@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager"><action name="Execute"><execute>xdg-open .</execute></action></item>
+    <item label="Terminal"><action name="Execute"><execute>xterm</execute></action></item>
+    <item label="Web Browser"><action name="Execute"><execute>xdg-open http://</execute></action></item>
+    <item label="Run command"><action name="Execute"><execute>gmrun</execute></action></item>
+    <item label="Instant messaging"><action name="Execute"><execute>pidgin</execute></action></item>
+  <separator label="Applications"/>
+  <menu id="Accessories" label="Accessories">
+    <item label="7-Zip FM"><action name="Execute"><execute>7zFM</execute></action></item>
+    <item label="Archive Manager"><action name="Execute"><execute>file-roller</execute></action></item>
+    <item label="Calculator"><action name="Execute"><execute>gnome-calculator</execute></action></item>
+    <item label="Character Map"><action name="Execute"><execute>gucharmap</execute></action></item>
+    <item label="ClipIt"><action name="Execute"><execute>clipit</execute></action></item>
+    <item label="Clocks"><action name="Execute"><execute>gnome-clocks</execute></action></item>
+    <item label="compton"><action name="Execute"><execute>compton</execute></action></item>
+    <item label="Contacts"><action name="Execute"><execute>gnome-contacts</execute></action></item>
+    <item label="Desktop Search"><action name="Execute"><execute>tracker-needle</execute></action></item>
+    <item label="Disks"><action name="Execute"><execute>gnome-disks</execute></action></item>
+    <item label="Documents"><action name="Execute"><execute>gnome-documents</execute></action></item>
+    <item label="File Manager PCManFM"><action name="Execute"><execute>pcmanfm</execute></action></item>
+    <item label="Files"><action name="Execute"><execute>nautilus --new-window</execute></action></item>
+    <item label="Font Viewer"><action name="Execute"><execute>gnome-font-viewer</execute></action></item>
+    <item label="gedit"><action name="Execute"><execute>gedit</execute></action></item>
+    <item label="Help"><action name="Execute"><execute>yelp</execute></action></item>
+    <item label="IPython Qt console"><action name="Execute"><execute>ipython qtconsole</execute></action></item>
+    <item label="ipython"><action name="Execute"><execute>xterm -e 'ipython'</execute></action></item>
+    <item label="Logs"><action name="Execute"><execute>gnome-logs</execute></action></item>
+    <item label="LXImage"><action name="Execute"><execute>lximage-qt</execute></action></item>
+    <item label="Maps"><action name="Execute"><execute>gnome-maps</execute></action></item>
+    <item label="Network Tools"><action name="Execute"><execute>gnome-nettool</execute></action></item>
+    <item label="Notes"><action name="Execute"><execute>bijiben</execute></action></item>
+    <item label="Passwords and Keys"><action name="Execute"><execute>/usr/bin/seahorse</execute></action></item>
+    <item label="PCManFM File Manager"><action name="Execute"><execute>pcmanfm-qt</execute></action></item>
+    <item label="Photos"><action name="Execute"><execute>gnome-photos</execute></action></item>
+    <item label="Redshift"><action name="Execute"><execute>redshift-gtk</execute></action></item>
+    <item label="Root Terminal"><action name="Execute"><execute>gksu -l gnome-terminal</execute></action></item>
+    <item label="Screen Reader"><action name="Execute"><execute>orca --replace</execute></action></item>
+    <item label="Screenshot"><action name="Execute"><execute>gnome-screenshot --interactive</execute></action></item>
+    <item label="Screenshot"><action name="Execute"><execute>lximage-qt --screenshot</execute></action></item>
+    <item label="Tweak Tool"><action name="Execute"><execute>gnome-tweak-tool</execute></action></item>
+    <item label="Weather"><action name="Execute"><execute>gapplication launch org.gnome.Weather.Application</execute></action></item>
+    <item label="Xarchiver"><action name="Execute"><execute>xarchiver</execute></action></item>
+  </menu>
+  <menu id="Development" label="Development">
+    <item label="Accerciser"><action name="Execute"><execute>/usr/bin/accerciser</execute></action></item>
+    <item label="Anjuta"><action name="Execute"><execute>anjuta</execute></action></item>
+    <item label="CMake"><action name="Execute"><execute>cmake-gui</execute></action></item>
+    <item label="Database browser"><action name="Execute"><execute>gda-browser-5.0</execute></action></item>
+    <item label="Devhelp"><action name="Execute"><execute>devhelp</execute></action></item>
+    <item label="gitg"><action name="Execute"><execute>gitg --no-wd</execute></action></item>
+    <item label="Glade"><action name="Execute"><execute>glade</execute></action></item>
+    <item label="IPython Qt console"><action name="Execute"><execute>ipython qtconsole</execute></action></item>
+    <item label="ipython"><action name="Execute"><execute>xterm -e 'ipython'</execute></action></item>
+    <item label="OpenJDK Policy Tool"><action name="Execute"><execute>/usr/bin/policytool</execute></action></item>
+    <item label="Qt Assistant"><action name="Execute"><execute>/usr/lib/qt/bin/assistant</execute></action></item>
+    <item label="Qt Designer"><action name="Execute"><execute>/usr/lib/qt/bin/designer</execute></action></item>
+    <item label="Qt Linguist"><action name="Execute"><execute>/usr/lib/qt/bin/linguist</execute></action></item>
+    <item label="Qt QDbusViewer"><action name="Execute"><execute>/usr/lib/qt/bin/qdbusviewer</execute></action></item>
+    <item label="Qt4 Assistant"><action name="Execute"><execute>assistant-qt4</execute></action></item>
+    <item label="Qt4 Designer"><action name="Execute"><execute>designer-qt4</execute></action></item>
+    <item label="Qt4 Linguist"><action name="Execute"><execute>linguist-qt4</execute></action></item>
+    <item label="Qt4 QDbusViewer"><action name="Execute"><execute>qdbusviewer-qt4</execute></action></item>
+    <item label="Sublime Text 3 Dev"><action name="Execute"><execute>subl3</execute></action></item>
+  </menu>
+  <menu id="Education" label="Education">
+    <item label="LibreOffice Math"><action name="Execute"><execute>libreoffice --math</execute></action></item>
+    <item label="Stellarium nightsky renderer"><action name="Execute"><execute>stellarium</execute></action></item>
+  </menu>
+  <menu id="Games" label="Games">
+    <item label="AisleRiot Solitaire"><action name="Execute"><execute>sol</execute></action></item>
+    <item label="Chess"><action name="Execute"><execute>gnome-chess</execute></action></item>
+    <item label="Five or More"><action name="Execute"><execute>five-or-more</execute></action></item>
+    <item label="Four-in-a-row"><action name="Execute"><execute>four-in-a-row</execute></action></item>
+    <item label="Hitori"><action name="Execute"><execute>hitori</execute></action></item>
+    <item label="Iagno"><action name="Execute"><execute>iagno</execute></action></item>
+    <item label="Klotski"><action name="Execute"><execute>gnome-klotski</execute></action></item>
+    <item label="Lights Off"><action name="Execute"><execute>lightsoff</execute></action></item>
+    <item label="Mahjongg"><action name="Execute"><execute>gnome-mahjongg</execute></action></item>
+    <item label="Mines"><action name="Execute"><execute>gnome-mines</execute></action></item>
+    <item label="Nibbles"><action name="Execute"><execute>gnome-nibbles</execute></action></item>
+    <item label="Quadrapassel"><action name="Execute"><execute>quadrapassel</execute></action></item>
+    <item label="Robots"><action name="Execute"><execute>gnome-robots</execute></action></item>
+    <item label="Sudoku"><action name="Execute"><execute>gnome-sudoku</execute></action></item>
+    <item label="Swell Foop"><action name="Execute"><execute>swell-foop</execute></action></item>
+    <item label="Tali"><action name="Execute"><execute>tali</execute></action></item>
+    <item label="Tetravex"><action name="Execute"><execute>gnome-tetravex</execute></action></item>
+    <item label="Xboard"><action name="Execute"><execute>xboard</execute></action></item>
+  </menu>
+  <menu id="Graphics" label="Graphics">
+    <item label="Document Viewer"><action name="Execute"><execute>evince</execute></action></item>
+    <item label="E-book Viewer"><action name="Execute"><execute>ebook-viewer --detach</execute></action></item>
+    <item label="Feh"><action name="Execute"><execute>feh</execute></action></item>
+    <item label="FontForge"><action name="Execute"><execute>fontforge</execute></action></item>
+    <item label="Image Viewer"><action name="Execute"><execute>eog</execute></action></item>
+    <item label="LibreOffice Draw"><action name="Execute"><execute>libreoffice --draw</execute></action></item>
+    <item label="LRF Viewer"><action name="Execute"><execute>lrfviewer</execute></action></item>
+    <item label="LXImage"><action name="Execute"><execute>lximage-qt</execute></action></item>
+    <item label="Screenshot"><action name="Execute"><execute>lximage-qt --screenshot</execute></action></item>
+  </menu>
+  <menu id="Multimedia" label="Multimedia">
+    <item label="Brasero"><action name="Execute"><execute>brasero</execute></action></item>
+    <item label="Cheese"><action name="Execute"><execute>cheese</execute></action></item>
+    <item label="CMPlayer"><action name="Execute"><execute>cmplayer --wake</execute></action></item>
+    <item label="Music"><action name="Execute"><execute>gnome-music</execute></action></item>
+    <item label="PNMixer"><action name="Execute"><execute>pnmixer</execute></action></item>
+    <item label="PulseAudio Volume Control"><action name="Execute"><execute>pavucontrol</execute></action></item>
+    <item label="Qt V4L2 test Utility"><action name="Execute"><execute>qv4l2</execute></action></item>
+    <item label="Videos"><action name="Execute"><execute>totem</execute></action></item>
+    <item label="VLC media player"><action name="Execute"><execute>/usr/bin/vlc --started-from-file</execute></action></item>
+  </menu>
+  <menu id="Network" label="Network">
+    <item label="Avahi SSH Server Browser"><action name="Execute"><execute>/usr/bin/bssh</execute></action></item>
+    <item label="Avahi VNC Server Browser"><action name="Execute"><execute>/usr/bin/bvnc</execute></action></item>
+    <item label="Chromium"><action name="Execute"><execute>chromium</execute></action></item>
+    <item label="Empathy"><action name="Execute"><execute>empathy</execute></action></item>
+    <item label="Firefox"><action name="Execute"><execute>/usr/lib/firefox/firefox</execute></action></item>
+    <item label="Midori Private Browsing"><action name="Execute"><execute>midori --private</execute></action></item>
+    <item label="Midori"><action name="Execute"><execute>midori</execute></action></item>
+    <item label="Polari"><action name="Execute"><execute>polari</execute></action></item>
+    <item label="qBittorrent"><action name="Execute"><execute>qbittorrent</execute></action></item>
+    <item label="Qtransmission Bittorrent Client"><action name="Execute"><execute>transmission-qt</execute></action></item>
+    <item label="Remote Desktop Viewer"><action name="Execute"><execute>vinagre</execute></action></item>
+    <item label="Transmission"><action name="Execute"><execute>transmission-gtk</execute></action></item>
+    <item label="Web"><action name="Execute"><execute>epiphany</execute></action></item>
+    <item label="Zenmap (as root)"><action name="Execute"><execute>/usr/share/zenmap/su-to-zenmap.sh</execute></action></item>
+    <item label="Zenmap"><action name="Execute"><execute>zenmap</execute></action></item>
+  </menu>
+  <menu id="Office" label="Office">
+    <item label="Calibre"><action name="Execute"><execute>calibre --detach</execute></action></item>
+    <item label="Dictionary"><action name="Execute"><execute>gnome-dictionary</execute></action></item>
+    <item label="Document Viewer"><action name="Execute"><execute>evince</execute></action></item>
+    <item label="Edit E-book"><action name="Execute"><execute>ebook-edit --detach</execute></action></item>
+    <item label="Evolution"><action name="Execute"><execute>evolution</execute></action></item>
+    <item label="LibreOffice Base"><action name="Execute"><execute>libreoffice --base</execute></action></item>
+    <item label="LibreOffice Calc"><action name="Execute"><execute>libreoffice --calc</execute></action></item>
+    <item label="LibreOffice Draw"><action name="Execute"><execute>libreoffice --draw</execute></action></item>
+    <item label="LibreOffice Impress"><action name="Execute"><execute>libreoffice --impress</execute></action></item>
+    <item label="LibreOffice Math"><action name="Execute"><execute>libreoffice --math</execute></action></item>
+    <item label="LibreOffice Writer"><action name="Execute"><execute>libreoffice --writer</execute></action></item>
+    <item label="LibreOffice"><action name="Execute"><execute>libreoffice</execute></action></item>
+    <item label="qpdfview"><action name="Execute"><execute>qpdfview --unique</execute></action></item>
+    <item label="Zathura"><action name="Execute"><execute>zathura</execute></action></item>
+  </menu>
+  <menu id="Other" label="Other">
+    <item label="About LXQt"><action name="Execute"><execute>lxqt-about</execute></action></item>
+    <item label="Desktop"><action name="Execute"><execute>pcmanfm-qt --desktop-pref=general</execute></action></item>
+  </menu>
+  <menu id="Settings" label="Settings">
+    <item label="Adobe Flash Player"><action name="Execute"><execute>flash-player-properties</execute></action></item>
+    <item label="Appearance"><action name="Execute"><execute>lxqt-config-appearance</execute></action></item>
+    <item label="Customize Look and Feel"><action name="Execute"><execute>lxappearance</execute></action></item>
+    <item label="Database access control center"><action name="Execute"><execute>gda-control-center-5.0</execute></action></item>
+    <item label="Date and Time"><action name="Execute"><execute>lxqt-admin-time</execute></action></item>
+    <item label="Desktop Notifications"><action name="Execute"><execute>lxqt-config-notificationd</execute></action></item>
+    <item label="Desktop Preferences"><action name="Execute"><execute>pcmanfm --desktop-pref</execute></action></item>
+    <item label="File Associations"><action name="Execute"><execute>lxqt-config-file-associations</execute></action></item>
+    <item label="IcedTea-Web Control Panel"><action name="Execute"><execute>/usr/share/icedtea-web/bin/itweb-settings</execute></action></item>
+    <item label="Keyboard and Mouse"><action name="Execute"><execute>lxqt-config-input</execute></action></item>
+    <item label="LXQt System Settings"><action name="Execute"><execute>lxqt-config</execute></action></item>
+    <item label="Monitor settings"><action name="Execute"><execute>lxqt-config-monitor</execute></action></item>
+    <item label="Network Connections"><action name="Execute"><execute>nm-connection-editor</execute></action></item>
+    <item label="Openbox Configuration Manager"><action name="Execute"><execute>obconf</execute></action></item>
+    <item label="Openbox Settings"><action name="Execute"><execute>obconf-qt</execute></action></item>
+    <item label="Panel tint2"><action name="Execute"><execute>tint2conf</execute></action></item>
+    <item label="Power Management"><action name="Execute"><execute>lxqt-config-powermanagement</execute></action></item>
+    <item label="Preferred Applications"><action name="Execute"><execute>libfm-pref-apps</execute></action></item>
+    <item label="Privilege granting"><action name="Execute"><execute>gksu-properties</execute></action></item>
+    <item label="PulseAudio Preferences"><action name="Execute"><execute>paprefs</execute></action></item>
+    <item label="Rygel Preferences"><action name="Execute"><execute>rygel-preferences</execute></action></item>
+    <item label="Search and Indexing"><action name="Execute"><execute>tracker-preferences</execute></action></item>
+    <item label="Session Settings"><action name="Execute"><execute>lxqt-config-session</execute></action></item>
+    <item label="Shortcut Keys"><action name="Execute"><execute>lxqt-config-globalkeyshortcuts</execute></action></item>
+    <item label="Users and Groups"><action name="Execute"><execute>lxqt-admin-user</execute></action></item>
+  </menu>
+  <menu id="System" label="System">
+    <item label="Avahi Zeroconf Browser"><action name="Execute"><execute>/usr/bin/avahi-discover</execute></action></item>
+    <item label="Date and Time"><action name="Execute"><execute>lxqt-admin-time</execute></action></item>
+    <item label="dconf Editor"><action name="Execute"><execute>dconf-editor</execute></action></item>
+    <item label="Disk Usage Analyzer"><action name="Execute"><execute>baobab</execute></action></item>
+    <item label="File Manager PCManFM"><action name="Execute"><execute>pcmanfm</execute></action></item>
+    <item label="GNOME System Monitor"><action name="Execute"><execute>gnome-system-monitor</execute></action></item>
+    <item label="GParted"><action name="Execute"><execute>/usr/bin/gparted_polkit</execute></action></item>
+    <item label="Htop"><action name="Execute"><execute>xterm -e 'htop'</execute></action></item>
+    <item label="Logs"><action name="Execute"><execute>gnome-logs</execute></action></item>
+    <item label="Network Tools"><action name="Execute"><execute>gnome-nettool</execute></action></item>
+    <item label="Oracle VM VirtualBox"><action name="Execute"><execute>VirtualBox</execute></action></item>
+    <item label="QTerminal drop down"><action name="Execute"><execute>qterminal --drop</execute></action></item>
+    <item label="QTerminal"><action name="Execute"><execute>qterminal</execute></action></item>
+    <item label="Settings"><action name="Execute"><execute>gnome-control-center --overview</execute></action></item>
+    <item label="System Log"><action name="Execute"><execute>gnome-system-log</execute></action></item>
+    <item label="System Monitor"><action name="Execute"><execute>gnome-system-monitor</execute></action></item>
+    <item label="Terminal"><action name="Execute"><execute>gnome-terminal</execute></action></item>
+    <item label="urxvt (client)"><action name="Execute"><execute>urxvtc</execute></action></item>
+    <item label="urxvt (tabbed)"><action name="Execute"><execute>urxvt-tabbed</execute></action></item>
+    <item label="urxvt"><action name="Execute"><execute>urxvt</execute></action></item>
+    <item label="Users and Groups"><action name="Execute"><execute>lxqt-admin-user</execute></action></item>
+    <item label="UXTerm"><action name="Execute"><execute>uxterm</execute></action></item>
+    <item label="XTerm"><action name="Execute"><execute>xterm</execute></action></item>
+  </menu>
+  <separator/>
+  <menu id="Advanced Settings" label="Advanced Settings">
+    <item label="Conky RC"><action name="Execute"><execute>geany ~/.conkyrc</execute></action></item>
+    <item label="Tint2 Panel"><action name="Execute"><execute>geany ~/.config/tint2/tint2rc</execute></action></item>
+  <menu id="Obmenu-Generator" label="Obmenu-Generator">
+    <item label="Menu Schema"><action name="Execute"><execute>geany ~/.config/obmenu-generator/schema.pl</execute></action></item>
+    <item label="Menu Config"><action name="Execute"><execute>geany ~/.config/obmenu-generator/config.pl</execute></action></item>
+  <separator/>
+    <item label="Generate a pipe menu"><action name="Execute"><execute>obmenu-generator -p</execute></action></item>
+    <item label="Generate a static menu"><action name="Execute"><execute>obmenu-generator -s</execute></action></item>
+    <item label="Generate a pipe menu with icons"><action name="Execute"><execute>obmenu-generator -p -i</execute></action></item>
+    <item label="Generate a static menu with icons"><action name="Execute"><execute>obmenu-generator -s -i</execute></action></item>
+  <separator/>
+    <item label="Refresh Icon Set"><action name="Execute"><execute>obmenu-generator -d</execute></action></item>
+  </menu>
+  <menu id="Openbox" label="Openbox">
+    <item label="Reconfigure Openbox"><action name="Execute"><execute>openbox --reconfigure</execute></action></item>
+    <item label="Openbox Autostart"><action name="Execute"><execute>geany ~/.config/openbox/autostart</execute></action></item>
+    <item label="Openbox RC"><action name="Execute"><execute>geany ~/.config/openbox/rc.xml</execute></action></item>
+    <item label="Openbox Menu"><action name="Execute"><execute>geany ~/.config/openbox/menu.xml</execute></action></item>
+  </menu>
+  <menu id="Pacman / Servers" label="Pacman / Servers">
+    <item label="Makepkg Config"><action name="Execute"><execute>gksu geany /etc/makepkg.conf</execute></action></item>
+    <item label="Pacman Config"><action name="Execute"><execute>gksu geany /etc/pacman.conf</execute></action></item>
+    <item label="Pacman Mirrorlist"><action name="Execute"><execute>gksu geany /etc/pacman.d/mirrorlist</execute></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock"><action name="Execute"><execute>xscreensaver-command -lock</execute></action></item>
+    <item label="Exit"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>

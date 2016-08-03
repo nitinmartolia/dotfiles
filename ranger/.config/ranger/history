@@ -1,0 +1,41 @@
+rename bin
+show 
+search me
+rename powertop.html
+delete l
+search ru
+rename iitxtfmt-learning.txt
+show_hi
+open_with k
+rename oldwallpapers
+cd 
+tabnew
+q
+open_with chromium
+open_with firefox
+tab_new 
+Vsplit
+vsplit
+open_with vim
+rename Doctor.Who
+rename Doctor.Who.2005.S07E08.720p.BluRay.X264-TRiPS.srt
+open_with mpv --no-video q
+open_with mpv  k
+open_with mpv --no-video
+open_with mplayer2
+open_with mplayer
+find ico
+find termina
+search usr
+search g
+search 
+rm
+remove
+delete
+rename video.mp4
+open_with vlc
+
+open_with qpdf
+open_with qpdfview
+delete 
+open_with 

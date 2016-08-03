@@ -1,0 +1,360 @@
+! Xft settings ------------------------------------------
+
+Xft.dpi:   96
+Xft.antialias:   true
+Xft.rgba:     rgb
+Xft.hinting:  true
+Xft.hintstyle: hintfull
+Xft.autohint: false
+Xft.lcdfilter: lcddefault
+
+
+URxvt*cursorBlink: true
+URxvt*saveLines: 8000
+!URxvt*cursorColor: #EBE6E6
+URxvt*cursorColor: orange
+URxvt*cursorUnderline: false
+
+
+! Urxvt Settings ---------------------------------------------
+
+URxvt.font: xft:Terminus:style:Bold:size=13
+
+!URxvt.iconFile: /usr/share/icons/Numix-Circle/scalable/apps/terminal.svg
+!URxvt.iconFile: /home/trench/.icons/AwOkenWhite/clear/24x24/apps/terminal.png
+URxvt.borderLess: true
+URxvt.scrollBar: false
+
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+
+!URxvt*loginShell: true
+
+URxvt*urgentOnBell: true
+URxvt.depth: 32
+!URxvt.transparent: true
+!URxvt.shading: 90
+
+! Xcursor Theme -----------------------------------------
+
+!Xcursor.theme: Vanilla-DMZ-AA
+!Xcursor.size: 22
+
+
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher: /usr/bin/firefox
+URxvt.url-select.underline: true
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+
+!URxvt*background: [75]#111111
+!URxvt*background: #000000
+!URxvt*foreground: #babdb6
+URxvt*hightlightColor: #444444
+URxvt.colorUL: #B8ED69
+URxvt.colorIT: #87AF5F
+URxvt.colorBD: #F2EA25
+
+!NumiX Darkest.
+!!BY WuX 
+
+*background: #282828
+*foreground: #A2A2A2
+
+!Black
+*color0:    #555555
+*color8:    #888888
+
+!Red
+*color1:    #9C3528
+*color9:    #d64937
+
+!Green
+*color2:    #61BC3B
+*color10:   #86DF5D
+
+!yellow
+*color3:    #F3B43A
+*color11:   #FDD75A
+
+!blue
+*color4:    #0D68A8
+*color12:   #0F75BD
+
+!Magenta
+*color5:    #744560
+*color13:   #9E5E83
+
+!Cyan
+*color6:    #288e9c
+*color14:   #37c3d6
+
+!White
+*color7:    #A2A2A2
+*color15:   #f9f9f9
+
+
+! Zenburn
+!
+! *color0:  #1E2320
+! *color1:  #705050
+! *color2:  #60b48a
+! *color3:  #dfaf8f
+! *color4:  #506070
+! *color5:  #dc8cc3
+! *color6:  #8cd0d3
+! *color7:  #dcdccc
+! *color8:  #709080
+! *color9:  #dca3a3
+! *color10: #c3bf9f
+! *color11: #f0dfaf
+! *color12: #94bff3
+! *color13: #ec93d3
+! *color14: #93e0e3
+! *color15: #ffffff
+!
+
+!tartans
+
+! black
+!URxvt*color0  : #2E3436
+!URxvt*color8  : #555753
+!! red
+!URxvt*color1  : #a31604
+!URxvt*color9  : #c60001
+!! green
+!URxvt*color2  : #447241
+!URxvt*color10 : #27a343
+!! yellow
+!URxvt*color3  : #c1951a
+!URxvt*color11 : #d5a30e
+!! blue
+!URxvt*color4  : #425387
+!URxvt*color12 : #4a5a8d
+!! magenta
+!URxvt*color5  : #965d98
+!URxvt*color13 : #893c8c
+!! cyan
+!URxvt*color6  : #06989A
+!URxvt*color14 : #12bccb
+!! white
+!URxvt*color7  : #D3D7CF
+!URxvt*color15 : #EEEEEC
+!
+
+
+
+
+
+
+
+!! Black
+!*color0:   #222222
+!*color8:   #454545
+!
+!! Red
+!*color1:   #9E5641
+!*color9:   #CC896D
+!
+!! Green
+!*color2:   #6C7E55
+!*color10:  #7DB37D
+!
+!! Yellow
+!*color3:   #CAAF2B
+!*color11:  #BFB556
+!
+!! Blue
+!*color4:   #4c8ea1
+!*color12:  #6bc1d0
+!
+!! Magenta
+!*color5:   #956D9D
+!*color13:  #C18FCB
+!
+!! Cyan
+!*color6:   #7C9AA6
+!*color14:  #8FADBF
+!
+!! White
+!*color7:   #909090
+!*color15:  #FFFFFF
+!
+!
+
+!!Black
+!*color0:   #111111
+!*color8:   #666666
+!
+!! Red
+!*color1:   rgb:d3/62/65
+!*color9:   rgb:ef/81/71
+!
+!! Green
+!*color2:   #aece91
+!*color10:  #cfefb3
+!
+!! Yellow
+!*color3:   rgb:e7/e1/8c
+!*color11:  rgb:ff/f7/96
+!
+!! Blue
+!*color4:   #5297cf
+!*color12:  #74b8ef
+!
+!! Magenta
+!*color5:   #963c59
+!*color13:  #b85e7b
+!
+!! Cyan
+!*color6:   #5E7175
+!*color14:  #A3BABF
+!
+!! White
+!*color7:   #bebebe
+!*color15:  #ffffff
+!
+!! vim: et sw=2 syn=xdefaults
+!
+!
+
+
+
+
+
+
+
+!#define ct_c00 [60]#121212
+!#define ct_c08 #666666
+!#define ct_c01 #d15517
+!#define ct_c09 #d11723
+!#define ct_c02 #36b217
+!#define ct_c10 #00d56a
+!#define ct_c03 #d1b217
+!#define ct_c11 #ffea55
+!#define ct_c04 #55aaff
+!#define ct_c12 #1793d1
+!#define ct_c05 #b217d1
+!#define ct_c13 #d11793
+!#define ct_c06 #93d1b2
+!#define ct_c14 #17d1b2
+!#define ct_c07 #eeeeee
+!#define ct_c15 #ffffff
+!#define color00 ct_c00
+!#define color08 ct_c08
+!#define color01 ct_c01
+!#define color09 ct_c09
+!#define color02 ct_c02
+!#define color10 ct_c10
+!#define color03 ct_c03
+!#define color11 ct_c11
+!#define color04 ct_c04
+!#define color12 ct_c12
+!#define color05 ct_c05
+!#define color13 ct_c13
+!#define color06 ct_c06
+!#define color14 ct_c14
+!#define color07 ct_c07
+!#define color15 ct_c15
+!
+!URxvt*background: ct_c00
+!URxvt*foreground: ct_c15
+!*hightlightColor: #444444
+!*cursorColor: ct_c03
+!*pointerColorBackground: ct_c07
+!*pointerColorForeground: ct_c00
+!URxvt.colorUL: #B8ED69
+!URxvt.colorIT: #87af5f
+!URxvt.colorBD: #ED6975   
+!
+!!black
+!
+!URxvt*color0:  #333333
+!URxvt*color8:  #444444
+!!red
+!URxvt*color1:  #d45e68
+!URxvt*color9:  #ED6975
+!!green
+!URxvt*color2:  #a4d45e
+!URxvt*color10: #B8ED69
+!!yellow
+!URxvt*color3:  #d4c95e
+!URxvt*color11: #EDE169
+!!blue
+!URxvt*color4:  #5ea4d4
+!URxvt*color12: #69B8ED
+!!magenta
+!URxvt*color5:  #d45ea4
+!URxvt*color13: #ED69B8
+!!cyan
+!URxvt*color6:  #5ED4C9
+!URxvt*color14: #69EDE1
+!!white
+!URxvt*color7:  #AAAAAA
+!URxvt*color15: #CCCCCC
+!
+!
+!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+!!Baskerville - Eldorado dark
+!*background:  [90]#292929
+!*foreground:  #A2A2A2
+!*hightlightColor: #444444
+!URxvt.colorUL: #B8ED69
+!URxvt.colorIT: #87af5f
+!URxvt.colorBD: #ED6975   
+!
+!
+!! BLACK
+!*color0:      #4E4E4E
+!*color8:      #777777
+!
+!! WHITE
+!*color7:      #CFCFCF
+!*color15:     #FFFFFF
+!
+!! RED
+!*color1:      #A9635D
+!*color9:      #FFBBB2
+!
+!! YELLOW
+!*color3:      #84763D
+!*color11:     #E0CE91
+!
+!! GREEN
+!*color2:      #468459
+!*color10:     #9DDEAF
+!
+!! CYAN
+!*color6:      #008592
+!*color14:     #79E0ED
+!
+!! BLUE
+!*color4:      #5879AF
+!*color12:     #B3D1FF
+!
+!! MAGENTA
+!*color5:      #9C6594
+!*color13:     #FABDF0
+!
+!
+
+
+
